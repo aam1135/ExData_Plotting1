@@ -25,7 +25,7 @@ plot(dat$Time, dat$Voltage, ylab = "Voltage", xlab = "datetime", type = "l")
 
 
 # Bottom left plot
-with(dat, plot(Time, Sub_metering_1, ylab = "Energy sub metering", main = "", type = "l", col = "black"))
+with(dat, plot(Time, Sub_metering_1, ylab = "Energy sub metering", xlab = "", main = "", type = "l", col = "black"))
 # Add line charts and legend
 lines(dat$Time, dat$Sub_metering_2, col = "red")
 lines(dat$Time, dat$Sub_metering_3, col = "blue")
